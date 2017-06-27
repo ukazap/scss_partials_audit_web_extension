@@ -1,0 +1,29 @@
+{
+  "name": "scss_partials_audit",
+  "version": "1.0.0",
+  "description": "SCSS partials audit for Rails apps.",
+  "main": "content_scripts/audit_src.js",
+  "scripts": {
+    "build": "browserify content_scripts/audit_src.js -o content_scripts/audit.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ukazap/scss_partials_audit_web_extension.git"
+  },
+  "keywords": [
+    "scss",
+    "css",
+    "sass",
+    "audit",
+    "rails"
+  ],
+  "author": "Ukaza Perdana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ukazap/scss_partials_audit_web_extension/issues"
+  },
+  "homepage": "https://github.com/ukazap/scss_partials_audit_web_extension",
+  "dependencies": {
+    "css": "^2.2.1"
+  }
+}

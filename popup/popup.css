@@ -1,0 +1,22 @@
+html, body {
+  font-family: sans-serif;
+  min-width: 400px;
+  min-height: 600px;
+}
+
+#subtitle {
+  font-weight: bold;
+}
+
+.option {
+  margin: 3% auto;
+  padding: 4px;
+  font-family: monospace;
+  font-size: 1.2em;
+  background-color: #E5F2F2;
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #CFF2F2;
+}
